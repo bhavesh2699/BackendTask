@@ -4,13 +4,10 @@ r = requests.get(url=URL)
 data = r.json()
 # print(data.keys())
 s = ''
-l = []
-dupi = []   #to store duplicates values.
+l = dupi = sameconfprintt = []
 sameconf={}
-sameconfprintt=[]      #to store those key,values having confrence same but others things might be differnt
 di = {'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August',
       'Sep': 'September','Sept': 'September', 'Oct': 'October', 'Nov': 'November', 'Dec': 'December'}
-
 
 
 # Printing the contents in a human readable format,
